@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>割り勘</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            割り勘
+        </div>
+    </header>
+    <main>
+    <div id="main">
+        <div id="Dutchtreat">
+            <div id="people-box">
+                <label for="people">人数:</label>
+                <input type="text" id="people" placeholder="人数を入力してください" maxlength="3" size="20" required>
+            </div>
+            <div id="money-box">
+                <label for="money">金額:</label>
+                <input type="text" id="money" placeholder="金額を入力してください" maxlength="6" size="20" required>
+            </div>
+            <div id="button">
+                <input type="button" name="m_value" value="計算する" onclick="btn()">
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="js/system.js"></script>
+</body>
+</html>
